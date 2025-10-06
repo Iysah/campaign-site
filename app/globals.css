@@ -2,14 +2,25 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #333333;
+  --primary: #008000; /* Deep Green */
+  --secondary: #ff0000; /* Vibrant Red */
+  --accent: #00bfff; /* Sky Blue */
+  --neutral: #ffffff; /* White */
+  --dark: #333333; /* Charcoal Gray */
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-neutral: var(--neutral);
+  --color-dark: var(--dark);
+
+  --font-sans: var(--font-open-sans);
+  --font-heading: var(--font-inter);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +30,24 @@
   }
 }
 
+/* Base styles for accessibility */
+html { scroll-behavior: smooth; }
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-open-sans), Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+}
+
+a { color: var(--accent); }
+
+/* Utility helpers */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
 }
