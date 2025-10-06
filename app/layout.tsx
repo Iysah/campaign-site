@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/natat.png",
   },
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
   openGraph: {
     title: "NATAT2027 – No Alternative",
     description:
