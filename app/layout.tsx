@@ -26,12 +26,12 @@ export const metadata: Metadata = {
   icons: {
     icon: "/natat.png",
   },
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://aliatinubu2027.com/"),
   openGraph: {
     title: "NATAT2027 – No Alternative",
     description:
       "APC's vision for Benue & beyond. Unite for progress and prosperity.",
-    url: "https://natat2027.example", // placeholder
+    url: "https://aliatinubu2027.com/", // placeholder
     siteName: "NATAT2027",
     images: [{ url: "/natat.png", width: 512, height: 512, alt: "NATAT2027" }],
     locale: "en_NG",
@@ -55,7 +55,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "APC NATAT2027",
-    url: "https://natat2027.example",
+    url: "https://aliatinubu2027.com/",
     logo: "/natat.png",
     sameAs: [
       "https://twitter.com/apc_natat2027",
