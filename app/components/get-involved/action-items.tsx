@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { UserPlus, Share2, Calendar, DollarSign, MessageSquare, FileText } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 
 const actions = [
   {

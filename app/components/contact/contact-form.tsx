@@ -4,7 +4,7 @@ import type React from "react"
 
 import { useState } from "react"
 import { CheckCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 
 const inquiryTypes = [
   "General Inquiry",

@@ -33,7 +33,7 @@ export default function ConsentBanner() {
           Read our <a href="/privacy" className="underline">Privacy Notice</a>.
         </p>
         <div className="mt-3 flex gap-2 justify-end">
-          <button onClick={decline} className="px-4 py-2 rounded bg-gray-100">Decline</button>
+          <button onClick={decline} className="px-4 py-2 rounded bg-gray-100 text-gray-700">Decline</button>
           <button onClick={accept} className="px-4 py-2 rounded bg-[var(--accent)] text-white">Accept</button>
         </div>
       </div>

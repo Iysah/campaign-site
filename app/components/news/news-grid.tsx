@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import { Calendar, Clock, Tag, Search } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Button } from "../ui/button"
 
 const newsArticles = [
   {
