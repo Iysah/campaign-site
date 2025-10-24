@@ -9,7 +9,7 @@ export default function HeroSection() {
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img src="/diverse-crowd-waving-apc-flags-at-political-rally-.jpg" alt="NATAT2027 Campaign Rally" className="w-full h-full object-cover" />
+        <img src="/apc-crown.jpeg" alt="NATAT2027 Campaign Rally" className="w-full h-full object-cover" />
         <div className="absolute inset-0 hero-overlay"></div>
       </div>
 

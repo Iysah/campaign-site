@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="bg-[var(--primary)] text-white mt-16" role="contentinfo">
+    <footer className="bg-[var(--primary)] text-white" role="contentinfo">
       <div className="container px-4 py-10 grid sm:grid-cols-3 gap-8">
         <div className="flex items-center gap-3">
           <Image src="/natat.png" alt="NATAT2027 logo" width={50} height={50} className="rounded-full" />

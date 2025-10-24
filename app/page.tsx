@@ -7,6 +7,8 @@ import StatsCarousel from "./components/home/stats-carousel";
 import TestimonialSlider from "./components/home/testimonial-slider";
 import PolicyTeasers from "./components/home/policy-teasers";
 import NewsletterSignup from "./components/home/newsletter-signup";
+import GovernorAchievements from "./components/home/governor-achievements";
+import PresidentAchievements from "./components/home/president-achievements";
 
 const HeroImageClient = dynamic(() => import("./components/HeroImageClient"), {
   ssr: false,
@@ -17,7 +19,9 @@ export default function Home() {
     <div className="pt-20">
       <HeroSection />
       <StatsCarousel />
+      <GovernorAchievements />
       <TestimonialSlider />
+      <PresidentAchievements />
       <PolicyTeasers />
       <NewsletterSignup />
     </div>
