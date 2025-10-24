@@ -39,7 +39,7 @@ export default function HeroSection() {
               <Button
                 asChild
                 size="lg"
-                className="bg-[#008000] hover:bg-[#006400] text-white font-bold text-lg px-8 py-6 group"
+                className="bg-[#043927] hover:bg-[#006400] text-white font-bold text-lg px-8 py-6 group"
               >
                 <Link href="/get-involved">
                   Join the Movement

@@ -35,7 +35,7 @@ export default function PresidentAchievements() {
           </div>
           <div className="relative h-[500px] rounded-lg overflow-hidden order-1 md:order-2">
             <Image
-              src="/tinubu.webp"
+              src="/tinubu-a.jpg"
               alt="President Bola Tinubu"
               fill
               style={{ objectFit: 'cover' }}

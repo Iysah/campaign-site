@@ -37,7 +37,7 @@ export default function GovernorAchievements() {
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div className="relative h-[500px] rounded-lg overflow-hidden">
             <Image
-              src="/images/governor-alia.jpg"
+              src="/Alia.jpg"
               alt="Governor Hyacinth Iormem Alia"
               fill
               style={{ objectFit: 'cover' }}
