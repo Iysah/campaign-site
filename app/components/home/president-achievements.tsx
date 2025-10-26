@@ -26,7 +26,7 @@ export default function PresidentAchievements() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
           <div className="text-left order-2 md:order-1">
-            <h2 className="text-3xl font-bold mb-4">President Tinubu&apos;s Impact</h2>
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">President Tinubu&apos;s Impact</h2>
             <p className="text-gray-600 mb-6">
               Under President Bola Tinubu&apos;s administration, Nigeria has embarked on 
               bold reforms and initiatives aimed at transforming the nation&apos;s economy 

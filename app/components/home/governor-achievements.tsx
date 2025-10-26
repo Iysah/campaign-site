@@ -46,7 +46,7 @@ export default function GovernorAchievements() {
             />
           </div>
           <div className="text-left">
-            <h2 className="text-3xl font-bold mb-4">Governor Alia&apos;s Achievements</h2>
+            <h2 className="text-3xl font-bold text-gray-700 mb-4">Governor Alia&apos;s Achievements</h2>
             <p className="text-gray-600 mb-6">
               Under the leadership of Governor Hyacinth Iormem Alia, Benue State has witnessed significant
               progress across various sectors. His administration has brought transformative changes

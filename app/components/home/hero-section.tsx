@@ -41,7 +41,7 @@ export default function HeroSection() {
                 size="lg"
                 className="bg-[#043927] hover:bg-[#006400] text-white font-bold text-lg px-8 py-6 group"
               >
-                <Link href="/get-involved">
+                <Link href="/get-involved" className=" text-white">
                   Join the Movement
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
                 </Link>
@@ -51,7 +51,7 @@ export default function HeroSection() {
                 size="lg"
                 className="bg-[#ff0000] hover:bg-[#cc0000] text-white font-bold text-lg px-8 py-6 pulse-cta"
               >
-                <Link href="/donate">Donate Now</Link>
+                <Link href="/donate" className=" text-white">Donate Now</Link>
               </Button>
             </div>
 
@@ -147,11 +147,11 @@ export default function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
+      {/* <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
         <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-bounce"></div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
