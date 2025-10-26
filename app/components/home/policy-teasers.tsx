@@ -83,14 +83,14 @@ export default function PolicyTeasers() {
           })}
         </div>
 
-        <div className="text-center">
+        {/* <div className="text-center">
           <Button asChild size="lg" className="bg-[#008000] hover:bg-[#006400] text-white font-bold px-8">
             <Link href="/platform">
               View Full Platform
               <ArrowRight className="ml-2" size={20} />
             </Link>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
