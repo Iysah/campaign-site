@@ -13,7 +13,7 @@ export default function AboutPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
       <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">
+        <h1 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-12">
           About Us
         </h1>
         <div className="max-w-3xl mx-auto text-lg mb-16 text-center">
