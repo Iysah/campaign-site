@@ -16,18 +16,35 @@ export default function AboutPage() {
         <h1 className="text-4xl md:text-5xl font-bold text-center mt-4 mb-12">
           About Us
         </h1>
-        <div className="max-w-3xl mx-auto text-lg mb-16 text-center">
+        <div className="max-w-3xl mx-auto text-lg mb-16 text-center space-y-6">
           <p>
-            At NATAT2027 – "No Alternative To Alia Tinubu 2027", we are united under a singular vision: 
-            to build a stronger Nigeria by empowering the states and uplifting our people. We believe 
-            that the future of our nation lies in bold, inclusive transformation anchored in unity, 
-            progress, security, and quality education.
+            No Alternative to Alia/Tinubu 2027 is not just a slogan — it is a movement born out of conviction,
+            passion, and belief in purposeful leadership.
           </p>
+          <p>
+            We stand firm with Rev. Fr. Dr. Hyacinth Iormem Alia and President Bola Ahmed Tinubu, two leaders whose
+            commitment to service, transformation, and progress continues to inspire millions of Nigerians. From Abuja
+            to Makurdi, from our communities to the grassroots, their leadership is redefining governance and
+            rekindling hope.
+          </p>
+          <p>
+            This movement is the voice of the people — men and women, youths and elders — who believe that continuity is
+            the key to sustained progress. We are united by a shared vision of a greater Nigeria and a revived Benue,
+            where development is not just promised, but delivered.
+          </p>
+          <p>
+            We believe that leadership is about impact, and with Alia and Tinubu, Nigeria and Benue are on the right
+            path. Together, we are building a movement that transcends politics, a movement of hope, development, and
+            destiny.
+          </p>
+          <blockquote className="border-l-4 border-[var(--accent)] pl-4 italic text-xl">
+            There is truly No Alternative to Alia/Tinubu 2027! 🇳🇬
+          </blockquote>
         </div>
         
         <MissionSection />
         <ValuesSection />
-        <ContentSection />
+        {/* <ContentSection /> */}
         <JoinSection />
       </div>
     </main>

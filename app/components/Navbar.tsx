@@ -8,7 +8,7 @@ import { FiMenu, FiX, FiGlobe } from "react-icons/fi";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
-  { href: "/platform", label: "Platform" },
+  // { href: "/platform", label: "Platform" },
   { href: "/news", label: "News" },
   // { href: "/events", label: "Events" },
   // { href: "/get-involved", label: "Get Involved" },

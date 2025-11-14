@@ -4,8 +4,8 @@ export default function JoinSection() {
   return (
     <section className="py-12 bg-blue-50">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-6">Join the Movement</h2>
-        <div className="prose max-w-none mb-8">
+        <h2 className="text-3xl font-bold mb-6 text-gray-700">Join the Movement</h2>
+        <div className="prose max-w-none mb-8 text-gray-700">
           <p>
             This is not just a campaign—it&apos;s a national movement. If you believe Nigeria 
             deserves better; if you believe in being part of tangible change; if you want 

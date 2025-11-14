@@ -21,11 +21,11 @@ export default function ValuesSection() {
   return (
     <section className="py-12 bg-gray-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 text-center">Our Values</h2>
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-700">Our Values</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {values.map((value, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-              <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
+              <h3 className="text-xl font-semibold mb-3 text-gray-700">{value.title}</h3>
               <p className="text-gray-600">{value.description}</p>
             </div>
           ))}
