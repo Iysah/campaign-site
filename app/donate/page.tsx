@@ -80,7 +80,7 @@ export default function DonatePage() {
     <main className="pt-24 container px-4">
       <section className="bg-white rounded-lg shadow p-6">
         <h1 className="font-heading text-3xl mb-2">Donate to NATAT2027</h1>
-        <p className="text-gray-700">Your ₦5,000 feeds 10 families. Every naira accelerates our mission.</p>
+        <p className="text-gray-700">Your ₦15,000 feeds 10 families. Every naira accelerates our mission.</p>
 
         {/* Thermometer */}
         <div className="mt-4">
