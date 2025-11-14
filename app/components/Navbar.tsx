@@ -11,7 +11,7 @@ const navItems = [
   // { href: "/platform", label: "Platform" },
   { href: "/news", label: "News" },
   // { href: "/events", label: "Events" },
-  // { href: "/get-involved", label: "Get Involved" },
+  { href: "/get-involved", label: "Get Involved" },
   // { href: "/donate", label: "Donate" },
   { href: "/contact", label: "Contact" },
 ];
